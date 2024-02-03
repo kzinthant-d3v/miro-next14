@@ -80,7 +80,7 @@ export const Canvas = ({ boardId }: CanvasProps) => {
       initialBounds,
       corner
     })
-  }, []);
+  }, [history]);
 
   const translateSelectedLayer = useMutation(({ storage, self }, point: Point) => {
     if (canvasState.mode !== CanvasMode.Translating) return;

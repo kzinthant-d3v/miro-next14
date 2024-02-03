@@ -4,7 +4,6 @@ import Image from "next/image";
 import {
   useOrganization,
   useOrganizationList,
-  useOrgnaizationList,
 } from "@clerk/nextjs";
 
 import { cn } from "@/lib/utils";
